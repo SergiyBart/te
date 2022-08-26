@@ -1,0 +1,17 @@
+/*Program to accept values of int, char, float data types
+Display them in the order of reading*/
+#include<stdio.h>
+main() {
+   char x;
+   int num;
+   float j;
+   /*Accept the values for data types from user*/
+   printf("Enter Character: ");
+   scanf("%c",&x);
+   printf("Enter Integer Value: ");
+   scanf("%d",&num);
+   printf("Enter Float Value: ");
+   scanf("%f",&j);
+   /*Display the accepted values*/
+   printf("Integer=%d\tFloat Value=%f\tCharacter=%c",num,j,x);
+}
